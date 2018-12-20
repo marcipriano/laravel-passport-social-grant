@@ -1,6 +1,6 @@
 <?php
 
-namespace Hivokas\LaravelPassportSocialGrant\Tests\Stubs;
+namespace MarCipriano\LaravelPassportSocialGrant\Tests\Stubs;
 
 use League\OAuth2\Server\Entities\Traits\ClientTrait;
 use League\OAuth2\Server\Entities\Traits\EntityTrait;

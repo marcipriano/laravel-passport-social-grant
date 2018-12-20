@@ -8,7 +8,7 @@ As a result you will be able to exchange `access_token`, issued by the OAuth2 se
 
 You can install this package via composer using this command:
 ```bash
-composer require hivokas/laravel-passport-social-grant
+composer require marCipriano/laravel-passport-social-grant
 ```
 The package will automatically register itself.
 
@@ -20,7 +20,7 @@ As the first step, you need to implement `SocialUserResolverInterface`:
 
 namespace App\Resolvers;
 
-use Hivokas\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
+use MarCipriano\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
 use Illuminate\Contracts\Auth\Authenticatable;
 
 class SocialUserResolver implements SocialUserResolverInterface
@@ -51,7 +51,7 @@ You can do it by adding the appropriate key-value pair to `$bindings` property i
 namespace App\Providers;
 
 use App\Resolvers\SocialUserResolver;
-use Hivokas\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
+use MarCipriano\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

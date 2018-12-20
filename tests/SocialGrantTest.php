@@ -1,23 +1,23 @@
 <?php
 
-namespace Hivokas\LaravelPassportSocialGrant\Tests;
+namespace MarCipriano\LaravelPassportSocialGrant\Tests;
 
 use Zend\Diactoros\ServerRequest;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\User;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\User;
 use League\OAuth2\Server\Exception\OAuthServerException;
-use Hivokas\LaravelPassportSocialGrant\Grants\SocialGrant;
+use MarCipriano\LaravelPassportSocialGrant\Grants\SocialGrant;
 use League\OAuth2\Server\Entities\AccessTokenEntityInterface;
 use League\OAuth2\Server\Entities\RefreshTokenEntityInterface;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\ScopeEntity;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\ScopeEntity;
 use League\OAuth2\Server\Repositories\ScopeRepositoryInterface;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\ClientEntity;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\ResponseType;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\ClientEntity;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\ResponseType;
 use League\OAuth2\Server\Repositories\ClientRepositoryInterface;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\AccessTokenEntity;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\AccessTokenEntity;
 use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;
-use Hivokas\LaravelPassportSocialGrant\Tests\Stubs\RefreshTokenEntity;
+use MarCipriano\LaravelPassportSocialGrant\Tests\Stubs\RefreshTokenEntity;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
-use Hivokas\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
+use MarCipriano\LaravelPassportSocialGrant\Resolvers\SocialUserResolverInterface;
 
 class SocialGrantTest extends AbstractTestCase
 {

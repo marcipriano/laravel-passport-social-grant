@@ -1,6 +1,6 @@
 <?php
 
-namespace Hivokas\LaravelPassportSocialGrant\Resolvers;
+namespace MarCipriano\LaravelPassportSocialGrant\Resolvers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 

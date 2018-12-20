@@ -1,18 +1,18 @@
 {
-    "name": "hivokas/laravel-passport-social-grant",
+    "name": "marCipriano/laravel-passport-social-grant",
     "description": "Social Grant for Laravel Passport",
     "keywords": ["laravel", "passport", "social", "network", "grant", "oauth"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ilya Sakovich",
-            "email": "me@hivokas.com"
+            "name": "Marcilio Cipriano",
+            "email": "marciliocipriano@hotmail.com"
         }
     ],
     "require": {
         "php": ">=7.1",
-        "laravel/passport": "^6.0|^7.0"
+        "laravel/passport": "^4.0|^6.0|^7.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.1",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hivokas\\LaravelPassportSocialGrant\\": "src/"
+            "MarCipriano\\LaravelPassportSocialGrant\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hivokas\\LaravelPassportSocialGrant\\Tests\\": "tests/"
+            "MarCipriano\\LaravelPassportSocialGrant\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hivokas\\LaravelPassportSocialGrant\\Providers\\SocialGrantServiceProvider"
+                "MarCipriano\\LaravelPassportSocialGrant\\Providers\\SocialGrantServiceProvider"
             ]
         }
     }

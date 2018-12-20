@@ -1,9 +1,9 @@
 <?php
 
-namespace Hivokas\LaravelPassportSocialGrant\Tests;
+namespace MarCipriano\LaravelPassportSocialGrant\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Hivokas\LaravelPassportSocialGrant\Providers\SocialGrantServiceProvider;
+use MarCipriano\LaravelPassportSocialGrant\Providers\SocialGrantServiceProvider;
 
 abstract class AbstractTestCase extends OrchestraTestCase
 {
